@@ -7,3 +7,4 @@
 ## 作业讲评
 
 1. [0-warm-up](https://idrl-assignment.github.io/simplelayout-comment/0-warm-up-comment.html)
+1. [1-simplelayout-CLI](https://idrl-assignment.github.io/simplelayout-comment/1-simplelayout-CLI-comment.html)
