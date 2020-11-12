@@ -38,7 +38,13 @@ python simplelayout.py --board_grid 100 --unit_grid 10 --unit_n 3 --positions 1 
 
 <!-- slide -->
 
+## 文件操作
 
+- [读写文件](https://docs.python.org/zh-cn/3/tutorial/inputoutput.html#reading-and-writing-files)
+- open，close
+- 配合 with 语句，
+
+<!-- slide -->
 
 ## 结果/存在问题
 
