@@ -66,10 +66,12 @@ presentation:
 ## `Sphinx`
 
 - 使用脚本 `sphinx-quickstart`
-- 配置 `conf.py`
-  - 可配置**插件**、**主题**等等
+- 配置 `conf.py`，[文档](https://www.sphinx-doc.org/en/master/usage/configuration.html)
+  - 可配置**插件**、[主题](https://www.sphinx-doc.org/en/master/usage/theming.html#builtin-themes)等等
+  - 注意文件前面的注释 `Path setup` 部分
 - 默认使用 `rst`，可配置支持 `md`
 - 文档也是要配合**版本控制**的
+- `spninx-apidoc` 配合 `autodoc`、`napoleon` 插件生成 api
 
 <!-- slide -->
 
@@ -77,7 +79,12 @@ presentation:
 
 - [官网](https://readthedocs.org/)，查看一下基本功能
 - 示例，[requests](https://requests.readthedocs.io/en/master/)
-- 跟 github 仓库绑定  
+- 跟 github 仓库绑定
+- 需要在 read the docs 上进行一些配置
+  - webhook
+  - 分支
+  - **install package**
+- 可配合 `.readthedocs.yml`
 
 
 <!-- slide -->
@@ -89,5 +96,7 @@ presentation:
 - 注意查看 Feedbacks
 - version 的一致性
 - 遵守规范能够方便使用 CI/CD 的工具，例如 github action
+- 关于 requirements.txt 的问题
+- 查看 rtd 时别忘了强制刷新网页，一般是 `ctrl + F5`
 
 
