@@ -27,7 +27,8 @@ class rollWindow(QMainWindow, Ui_Dialog):
         self.students_lt = get_lt(here / "students_lt.txt")
         self.init_checkbox(self.students_lt)
         self.timer = QTimer(self)
-
+        self.stopButton.setEnabled(False)
+        
         self.startButton.clicked.connect(self.start)
         self.stopButton.clicked.connect(self.stop)
         self.timer.timeout.connect(self.update)
